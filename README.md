@@ -130,7 +130,6 @@ money-lending/
 │ └── auth.js
 ├── models/
 │ └── User.js
-├── node_modules
 ├── routes
 │ ├── borrow.js
 │ ├── login.js
