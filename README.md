@@ -12,8 +12,8 @@ To run the server first you need to the following programs installed on your mac
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Bibhash844/money_lenfing_app.git
-    cd money_lenfing_app
+    git clone https://github.com/Bibhash844/money_lending_app.git
+    cd money_lending_app
     ```
 
 2. Install dependencies:
@@ -21,15 +21,7 @@ To run the server first you need to the following programs installed on your mac
     npm install
     ```
 
-3. Set up your environment variables. Create a `.env` file in the root directory and add the following:
-    ```env
-    NODE_ENV=development
-    PORT=3000
-    DATABASE=your_mongodb_connection_string
-    SECRET=your_jwt_secret
-    ```
-
-4. Start the server:
+3. Start the server:
     ```bash
     npm start
     ```
@@ -117,10 +109,6 @@ The `auth` middleware is used to authenticate users based on the token stored in
 money-lending/
 ├── config/
 │ └── config.js
-├── middlewares/
-│ └── auth.js
-├── models/
-│ └── User.js
 ├── images/
 │ ├── signup-request.png
 │ ├── signup-correct-response.png
@@ -138,14 +126,18 @@ money-lending/
 │ ├── borrow-incorrect_amount-response.png
 │ ├── borrow-incorrect_tenure-response.png
 │ └── logout_response.png
-├── .env
-├── .gitignore
-├── index.js
+├── middlewares/
+│ └── auth.js
+├── models/
+│ └── User.js
+├── node_modules
+├── routes
 │ ├── borrow.js
 │ ├── login.js
 │ ├── logout.js
 │ ├── signup.js
 │ └── user.js
+├── index.js
 ├── package.json
 └── README.md
 ```
