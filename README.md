@@ -12,8 +12,8 @@ To run the server first you need to the following programs installed on your mac
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Bibhash844/money_lending_app.git
-    cd money_lending_app
+    git clone https://github.com/Bibhash844/money_lending_backend.git
+    cd money_lending_backend
     ```
 
 2. Install dependencies:
