@@ -106,7 +106,7 @@ The `auth` middleware is used to authenticate users based on the token stored in
 
 ## Folder Structure
 ```http
-money-lending/
+money-lending-backend/
 ├── config/
 │ └── config.js
 ├── images/
