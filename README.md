@@ -18,12 +18,13 @@ To run the server first you need to the following programs installed on your mac
 
 2. Install dependencies:
     ```bash
-    npm install
+    npm init
+    npm install express body-parser cookie-parser bcrypt mongoose jsonwebtoken nodemon
     ```
 
 3. Start the server:
     ```bash
-    npm start
+    nodeman
     ```
 
 
