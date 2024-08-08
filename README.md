@@ -1,11 +1,10 @@
 
-# Backend Development Assignment
+# Backend Development
 
-Developing a backend for a money lending application, similar to apps like Slice and KreditBee. Implement the following 4 APIs using MongoDB, Postman, and Node.js. Adding Comments to the logic is mandatory.
-
+Developing a backend for a money lending application, similar to apps like Slice and KreditBee. Implement the following 4 APIs using MongoDB, Postman, and Node.js.
 ## Installation
 
-To run the server first you need to the following programs installed on your machine.
+To run the server first you need to install following to your system.
 1. Node.js
 2. MongoDb
 3. Postman
